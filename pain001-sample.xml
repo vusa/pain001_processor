@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <CstmrCdtTrfInitn>
+      <GrpHdr>
+         <MsgId>431053</MsgId>
+         <CreDtTm>2022-03-11T01:33:49</CreDtTm>
+         <NbOfTxs>2</NbOfTxs>
+         <CtrlSum>600.11</CtrlSum>
+         <InitgPty>
+            <Nm>Initiating Party Name</Nm>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>Party Id</Id>
+                  </Othr>
+               </OrgId>
+            </Id>
+         </InitgPty>
+      </GrpHdr>
+      <PmtInf>
+         <PmtInfId>13036902</PmtInfId>
+         <PmtMtd>TRF</PmtMtd>
+         <NbOfTxs>2</NbOfTxs>
+         <CtrlSum>200.00</CtrlSum> 
+         <PmtTpInf>
+            <SvcLvl>
+               <Cd>MURG</Cd>
+            </SvcLvl>
+            <LclInstrm>
+               <Cd>CTX</Cd>
+            </LclInstrm>
+            <CtgyPurp>
+               <Prtry>Mortgage</Prtry>
+            </CtgyPurp>
+         </PmtTpInf>
+         <ReqdExctnDt>2022-03-11</ReqdExctnDt>
+         <Dbtr>
+            <Nm>Debtor Name</Nm>
+            <PstlAdr>
+               <StrtNm>Debtor Streeet Name</StrtNm>
+               <TwnNm>Debtor Town Name</TwnNm>
+               <CtrySubDvsn>Debtor country sub division</CtrySubDvsn>
+               <Ctry>US</Ctry>
+            </PstlAdr>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>GS00005132</Id> 
+                  </Othr>
+               </OrgId>
+            </Id>
+            <CtryOfRes>US</CtryOfRes>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <Othr>
+                  <Id>Debtor Account Number</Id>
+               </Othr>
+            </Id>
+            <Ccy>USD</Ccy>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>USABA</Cd>
+                  </ClrSysId>
+                  <MmbId>026015079</MmbId>
+               </ClrSysMmbId>
+               <PstlAdr>
+                  <Ctry>US</Ctry>
+               </PstlAdr>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtTrfTxInf>
+            <PmtId>
+               <EndToEndId>Paymen end to end Id </EndToEndId>
+            </PmtId>
+            <Amt>
+               <InstdAmt Ccy="USD">200.00</InstdAmt>
+            </Amt>
+            <CdtrAgt>
+               <FinInstnId>
+                  <ClrSysMmbId>
+                     <ClrSysId>
+                        <Cd>USABA</Cd>
+                     </ClrSysId>
+                     <MmbId>Clearing system Membership ID</MmbId>
+                  </ClrSysMmbId>
+                  <PstlAdr>
+                     <Ctry>US</Ctry>
+                  </PstlAdr>
+               </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+               <Nm>Creditor Account Name</Nm>
+               <PstlAdr>
+                  <Ctry>US</Ctry>
+               </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+               <Id>
+                  <Othr>
+                     <Id>Creditor Account Number</Id>
+                  </Othr>
+               </Id>
+               <Tp>
+                  <Cd>CACC</Cd>
+               </Tp>
+            </CdtrAcct>
+         </CdtTrfTxInf>
+      </PmtInf>
+      <PmtInf>
+         <PmtInfId>13036906</PmtInfId>
+         <PmtMtd>TRF</PmtMtd>
+         <CtrlSum>200.00</CtrlSum> 
+         <PmtTpInf>
+            <SvcLvl>
+               <Cd>MURG</Cd>
+            </SvcLvl>
+            <LclInstrm>
+               <Cd>CTX</Cd>
+            </LclInstrm>
+            <CtgyPurp>
+               <Prtry>Proprietary code </Prtry>
+            </CtgyPurp>
+         </PmtTpInf>
+         <ReqdExctnDt>2022-03-11</ReqdExctnDt>
+         <Dbtr>
+            <Nm>Debtor Name</Nm>
+            <PstlAdr>
+               <StrtNm>Street Name</StrtNm>
+               <TwnNm>Town Name</TwnNm>
+               <CtrySubDvsn>country Sub Division</CtrySubDvsn>
+               <Ctry>Country</Ctry>
+            </PstlAdr>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>GS00005134</Id>
+                  </Othr>
+               </OrgId>
+            </Id>
+            <CtryOfRes>US</CtryOfRes>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <Othr>
+                  <Id>270008045186</Id>
+               </Othr>
+            </Id>
+            <Ccy>USD</Ccy>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>USABA</Cd>
+                  </ClrSysId>
+                  <MmbId>026015079</MmbId>
+               </ClrSysMmbId>
+               <PstlAdr>
+                  <Ctry>US</Ctry>
+               </PstlAdr>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtTrfTxInf>
+            <PmtId>
+               <EndToEndId>NSMGSB13036911</EndToEndId>
+            </PmtId>
+            <Amt>
+               <InstdAmt Ccy="USD">400.11</InstdAmt>
+            </Amt>
+            <CdtrAgt>
+               <FinInstnId>
+                  <ClrSysMmbId>
+                     <ClrSysId>
+                        <Cd>USABA</Cd>
+                     </ClrSysId>
+                     <MmbId>028000082</MmbId>
+                  </ClrSysMmbId>
+                  <PstlAdr>
+                     <Ctry>US</Ctry>
+                  </PstlAdr>
+               </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+               <Nm>Creditor Name</Nm>
+               <PstlAdr>
+                  <Ctry>US</Ctry>
+               </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+               <Id>
+                  <Othr>
+                     <Id>31062765</Id>
+                  </Othr>
+               </Id>
+               <Tp>
+                  <Cd>CACC</Cd>
+               </Tp>
+            </CdtrAcct>
+         </CdtTrfTxInf>
+      </PmtInf>
+   </CstmrCdtTrfInitn>
+</Document>
